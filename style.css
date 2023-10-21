@@ -45,3 +45,54 @@ body {
     font-weight: 400;
     font-style: italic;
 }
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    background-color: purple;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgb(188, 109, 188, 0.65);
+}
+
+button:hover {
+    filter: brightness(125%);
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgb(255, 140, 255);
+}
+
+.twitter-button:hover {
+    color: black;
+}
+
+.fa-square-x-twitter {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Media query : Tablet / Mobile */
+
+@media screen and (max-width: 1000px) {
+    .quote-container {
+        margin: auto 10px;
+    }
+
+    .quote-text {
+        font-size: 2.5rem;
+    }
+}
