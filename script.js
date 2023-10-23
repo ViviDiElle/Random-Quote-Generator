@@ -9,14 +9,12 @@ const loader = document.getElementById('loader');
 let apiQuotes = [];
 
 //Show loading
-
 function loading() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
 // Hide loading
-
 function complete() {
     quoteContainer.hidden = false;
     loader.hidden = true;
