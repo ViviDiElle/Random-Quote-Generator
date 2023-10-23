@@ -15,6 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .quote-container {
@@ -111,24 +113,4 @@ button:active {
     .quote-text {
         font-size: 2.5rem;
     }
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background-color: rgb(240, 180, 240, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
-    font-weight: 500;
-}
-
-.footer a {
-    text-decoration: none;
-    color: darkorchid;
-    font-weight: 700;
 }
